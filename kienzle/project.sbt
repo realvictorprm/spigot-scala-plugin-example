@@ -1,0 +1,5 @@
+scalaVersion := "2.13.3"
+name := "Kienzle"
+libraryDependencies += "io.github.iltotore" %% "spigot-scala" % "1.0"
+resolvers += "Spigot" at "https://hub.spigotmc.org/nexus/content/repositories/snapshots"
+libraryDependencies += "org.spigotmc" % "spigot-api" % "1.16.2-R0.1-SNAPSHOT" % "provided"
